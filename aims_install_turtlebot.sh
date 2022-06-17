@@ -14,7 +14,7 @@ read
 echo "[Setup Work Space: ROS_TURTLEBOT3]"
 mkdir -p $HOME/ROS_TURTLEBOT3/src
 cd $HOME/ROS_TURTLEBOT3/src
-git clone git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 cd turtlebot3
 git checkout -t origin/noetic-devel
 cd $HOME/ROS_TURTLEBOT3/src
