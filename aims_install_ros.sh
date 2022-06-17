@@ -39,5 +39,8 @@ echo "[Initialize rosdep and Update]"
 sudo sh -c "rosdep init"
 rosdep update
 
+sh -c "echo \"export ROS_MASTER_URI=http://localhost:11311\" >> ~/.bashrc"
+sh -c "echo \"export ROS_HOSTNAME=localhost\" >> ~/.bashrc"
+
 echo "[Complete!!!]"
 exit 0

@@ -25,3 +25,14 @@ $ chmod 755 ./aims_install_ros_rp.sh
 $ bash ./aims_install_ros_rp.sh
 $ source ~/.bashrc
 ```
+
+## Install Turtlebot3
+Credit : https://github.com/ROBOTIS-GIT
+```sh
+$ sudo apt update
+$ sudo apt upgrade -y
+$ wget wget https://raw.githubusercontent.com/aims-lab-kmitl/kbot_tools/main/aims_install_turtlebot.sh
+$ chmod 755 ./aims_install_turtlebot.sh
+$ bash ./aims_install_turtlebot.sh
+$ source ~/.bashrc
+```
