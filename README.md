@@ -10,6 +10,7 @@ $ sudo apt upgrade -y
 $ wget https://raw.githubusercontent.com/aims-lab-kmitl/kbot_tools/main/aims_install_ros.sh
 $ chmod 755 ./aims_install_ros.sh
 $ bash ./aims_install_ros.sh
+$ source ~/.bashrc
 ```
 
 ## Install ROS Noetic on Raspberry Pi
@@ -22,4 +23,5 @@ $ sudo apt upgrade -y
 $ wget https://raw.githubusercontent.com/aims-lab-kmitl/kbot_tools/main/aims_install_ros_rp.sh
 $ chmod 755 ./aims_install_ros_rp.sh
 $ bash ./aims_install_ros_rp.sh
+$ source ~/.bashrc
 ```
