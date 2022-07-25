@@ -26,7 +26,7 @@ $ bash ./aims_install_ros_rp.sh
 $ source ~/.bashrc
 ```
 
-## Install Turtlebot3
+## Install Turtlebot3 Simulation
 Credit : [Turtlebot3](https://github.com/ROBOTIS-GIT)
 ```sh
 $ sudo apt update
