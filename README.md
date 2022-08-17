@@ -31,7 +31,7 @@ Credit : [Turtlebot3](https://github.com/ROBOTIS-GIT)
 ```sh
 $ sudo apt update
 $ sudo apt upgrade -y
-$ wget wget https://raw.githubusercontent.com/aims-lab-kmitl/kbot_tools/main/aims_install_turtlebot.sh
+$ wget https://raw.githubusercontent.com/aims-lab-kmitl/kbot_tools/main/aims_install_turtlebot.sh
 $ chmod 755 ./aims_install_turtlebot.sh
 $ bash ./aims_install_turtlebot.sh
 $ source ~/.bashrc
