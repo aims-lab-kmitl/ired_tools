@@ -22,11 +22,8 @@ git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 
 echo "[Install gmapping, ]"
-sudo apt install -y ros-noetic-slam-gmapping
-sudo apt install -y ros-noetic-map-server
-sudo apt install -y ros-noetic-amcl
-sudo apt install -y ros-noetic-move-base
-sudo apt install -y ros-noetic-navigation
+sudo apt install -y ros-noetic-slam-gmapping ros-noetic-map-server ros-noetic-amcl \
+                    ros-noetic-move-base ros-noetic-navigation
 
 echo "[Catkin Make Work Space]"
 cd $HOME/ROS_TURTLEBOT3
