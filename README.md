@@ -1,4 +1,4 @@
-# KBOT Tools
+# iRED TOOLS
 ## Install ROS Noetic on PC
 Setup your PC and install Ubuntu 20.04.x on your PC
 - Ubuntu 20.04.4 LTS [Focal Fossa](https://releases.ubuntu.com/20.04/ubuntu-20.04.4-desktop-amd64.iso)
